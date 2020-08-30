@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <section id="logo">
+                <a href="#"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" height="30" width="92" data-atf="1"></a>
+            </section>
+            <section id="searchbar-section">
+                <div id="search-container">
+                    <input type="text" value="news" id="searchbar">
+                    <span class="icon-container" id="cross-container">
+                        <a href="#"><svg id="cross" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></a>
+                    </span>
+                    <span class="divider"></span>
+                    <span class="icon-container">
+                        <a href="#"><svg id="voice" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path><path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path><path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path><path d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z" fill="#ea4335"></path></svg></a>
+                    </span>
+                    <span class="icon-container">
+                        <a href="#"><svg id="magnify" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+                    </span>
+                </div>
+            </section>
+            <section id="sign-in-apps">
+                <span id="apps-container">
+                    <svg id="apps" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                </span>
+                <button id="signin">Sign in</button>
+            </section>
+            <section id="navigation">
+                <div class="nav-links">
+                    <div class="nav-link" id="selected">
+                        <span class="nav-img">
+                            <svg focusable="false" viewBox="0 0 24 24"><path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path><path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path><path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path><path fill="#4285f4" d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59"></path></svg>
+                        </span>
+                        <a href="#" class="nav-txt">All</a>
+                    </div>
+                    <div class="nav-link">
+                        <span class="nav-img">
+                            <svg focusable="false" viewBox="0 0 24 24"><path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2"></path></svg>    
+                        </span>
+                        <a href="#" class="nav-txt">News</a>
+                    </div>
+                    <div class="nav-link">
+                        <span class="nav-img">
+                            <svg focusable="false" viewBox="0 0 24 24"><path d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5"></path></svg>
+                        </span>
+                        <a href="#" class="nav-txt">Videos</a>
+                    </div>
+                    <div class="nav-link">
+                        <span class="nav-img">
+                            <svg focusable="false" viewBox="0 0 24 24"><path d="M21.11 2.89A3.02 3.02 0 0 0 18.95 2h-5.8c-.81 0-1.58.31-2.16.89L7.25 6.63 2.9 10.98a3.06 3.06 0 0 0 0 4.32l5.79 5.8a3.05 3.05 0 0 0 4.32.01l8.09-8.1c.58-.58.9-1.34.9-2.16v-5.8c0-.81-.32-1.59-.89-2.16zM20 10.85c0 .28-.12.54-.32.74l-3.73 3.74-4.36 4.36c-.41.41-1.08.41-1.49 0l-2.89-2.9-2.9-2.9a1.06 1.06 0 0 1 0-1.49l8.1-8.1c.2-.2.46-.3.74-.3l5.8-.01A1.05 1.05 0 0 1 20 5.05v5.8zM16 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"></path></svg>
+                        </span>
+                        <a href="#" class="nav-txt">Shopping</a>
+                    </div>
+                    <div class="nav-link">
+                        <span class="nav-img">
+                            <svg focusable="false" viewBox="0 0 24 24"><path d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7v-.01h7a1 1 0 0 0 1-1V5"></path></svg>
+                        </span>
+                        <a href="#" class="nav-txt">Images</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="#" class="nav-img">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+                        </span>
+                        <a href="#" class="nav-txt">More</a>
+                    </div>
+                </div>
+                <div id="options-container">
+                    <a class="options" href="#">Settings</a>
+                    <a class="options" id="tools" href="#"> Tools</a>
+                </div>
+            </section>
+        </header>
+        <section id="results">
+            <div id="no-of-results">
+                About 13,150,000,000 results (0.49 seconds)
+            </div>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                    <div class="sitelinks">
+                        <ul>
+                            <li><a href="#">Watch live</a></li>
+                            <li><a href="#">Local News</a></li>
+                            <li><a href="#">BBC News Home</a></li>
+                            <li><a href="#">BBC World News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+            <article class="result">
+                <div class="url-title">
+                    <div class="url">www.bbc.co.uk <span class="url-path">&gt; news</span></div>
+                    <div class="title"><a href="#">Home - BBC News</a></div>
+                </div>
+                <div class="description">
+                    <div class="description">
+                        Visit BBC <strong>News</strong> for up-to-the-minute <strong>news</strong>, breaking <strong>news</strong>, video, audio and feature stories. BBC <strong>News</strong> provides trusted World and UK <strong>news</strong> as well as local and ...
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="google-news">
+            <article id="container">
+                <h2>See results about</h2>
+                <a id="gnews" href="#">
+                    <div id="txt">
+                        <h3>Google News</h3>
+                        <p>Google News is a news aggregator service developed by Google. It presents a...</p>
+                    </div>
+                    <div id="img">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEgASAMBEQACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAABQYBAgcE/8QAPhAAAQMCAgQJBwwDAAAAAAAAAQACAwQRBRIGEyExFCJBUVJhgZGSBxVTcaGx0TI0QmJkZYKissHh8CQmM//EABoBAQACAwEAAAAAAAAAAAAAAAAEBQEDBgL/xAA3EQABAwICBQgIBwAAAAAAAAAAAQIDBBESMQUhUWGxBiIjQXGRoeETFRYkMlJi0RQlM0KBwfD/2gAMAwEAAhEDEQA/AO4oAgCAIAgCAIAgCAIAgMEhouSAOtAa62Ppt70MXQa2Ppt70F0Gtj6be9BdDYEOFwQR1IZMoAgCAICseUNjpdHsjGOeTOzitFyd/Itcjka26rZCDpFrnw4WpdboUGl0cq59sjI4G879p7h+9lTz6Ypovh5y7vuRafQFTLreiNTfn3EtTaNYfEDrg6ZxFruNgPUB/Kp5tN1D15lmoXkPJ6kY3npiX/bCqVFI6CV8TmAlji0kDm6l00VRHKxHIuZQz8nq+JMSR4k2pr8M/A6h5NdmjQG6079m625S2ZEzRzHsgwvSy3XMtS9k4IAgIrGa2opCxsIaGvB4xFzdUemK+elwpFay31kylgZLfF1FErcfrn1MrXuY8Ne5ozXO4+tX1PyapKynjmne9XOai56taX1JYrJNJzQyOYxEREVUyPP58q+jD4T8Vt9jdG/V3+R49c1O7u8zHnyr6MPhPxT2N0btd3+Q9dVO7u8yOq5OFTumka0Pda+XYCpsPJuiiYjGq63b5EiPlHWxtwph7vM1gqJ6Ml9JPLA7njkLfck+haeKF72KqKiKuexDfBp6pqZ2RytaqKqJltW20vOgGL4piklU2un10MLW5XOaA7MSeUb9gVBTSPffEWul6WCnw+jSyrcuallKEB4Mag11C8gcaPjjs3+xVWmaf01I62bdf38CTSvwSpvOZ01DLieNPpILBz5n3cdzQCbldpRzNh0bC9fkbwQoJWLJUvam1eJJ1FLotTukpZKysMzAQZmi7cw5ALf3nRktc9EejUsvUenNpm81VW5C4Y6g4YPORkNLY31fyr8inT+lwdF8RGjwYufkTBdof9v71C/MNxI913lbrDFrJzT5tTmdq82/LfZfrtZSanF+EfizwrwFHZKyO2WJOJ0byd0fB9HxMRZ1TI6TsHFHuv2rjaVto77TqtMy46pW/Lq/stCklUEBggEEHcVhURUsoOZYTXQ4PpZO+b/iJpYnO35RmO32BX7qVXaPZEz9rW2/hCqbKjalz3darxJrCcHr8KqZZqKqw9+GzODnTynMQwX3cl9u+9lGnqYp2Ij2rjTq3m+OF8blVqphUj+HVGIaYvmwHUZwwsjMoIa4AbTs7bKR6JsVGjZ7531ZmrG59ReInv8Acfur86g+4fV4Ej3rcULSCqrcQxCo4W2N1W28GWIWBLSRs7VarEyOiekeStVde9CPBIq1kav6nJxOtYdStoaCnpGfJhjawHnsLLmWtwtRC3lkWSRz161uelejWEAQHGsYcBjGIAkfOpf1lddTp0LOxOBQy/qO7VPFxPqrdY8XQzmafpDvSwua3ZztTDuFz14O4HGMPAIP+VFs/GFqqE6B/YvA9RL0je1OJ2hcgX4QBAEBoYo3G5jYTzloS5ixjUxejZ4Qs3UzYamL0bPCEupiyDUReiZ4Ql1FkMiKNpu2NgPOGhLqpmxusAIAgCAIAgCAIAgCAID/2Q==" height="72" width="72" alt="Google News Logo">
+                    </div>
+                </a>
+            </article>
+        </section>
+        <section id="pages">
+            <div id="related-searches">
+                <h2>Related Searches</h2>
+                <ul>
+                    <li><a href="#"><strong>sky</strong> news</a></li>
+                    <li><a href="#"><strong>latest</strong> news <strong>headlines for today</strong></a></li>
+                    <li><a href="#"><strong>bbc</strong> news <strong>headlines</strong></a></li>
+                    <li><a href="#">news <strong>uk</strong></a></li>
+                    <li><a href="#"><strong>itv</strong> news</a></li>
+                    <li><a href="#"><strong>bbc</strong> news <strong>(world)</strong></a></li>
+                    <li><a href="#"><strong>breaking</strong> news</a></li>
+                    <li><a href="#"><strong>uk</strong> news <strong>uk</strong></a></li>
+                </ul>
+            </div>
+            <div id="page-selector">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-24px 0; width: 28px"></span>&nbsp;
+                            </td>
+                            <td>
+                                <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-53px 0; width: 20px"></span>1
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>2
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>3
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>4
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>5
+
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>6
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>7
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>8
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>9
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0; width: 20px"></span>10
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <span class="letter" style="background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-96px 0; width: 71px"></span>
+                                    <span style="display:block; margin-left: 53px;">Next</span>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <footer id="footer">
+            <div id="location">
+                <p id="country">Greenland</p>
+                <span></span>
+                <p id="specific"><strong>N12, Nuuk</strong> - From your Internet address - <a href="#">Use precise location</a> - <a href="#">Learn more</a></p>
+            </div>
+            <div id="bottom-nav">
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Send feedback</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
